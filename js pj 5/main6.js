@@ -21,7 +21,7 @@ do {
 
 for (const aluno of alunos) {
 
-    if (aluno.qtdFaltas == 0) {
+    if (aluno.nome.startsWith("A")) {
 
         alert(`Aluno
 Nome: ${aluno.nome}
@@ -31,6 +31,7 @@ Faltas: ${aluno.qtdFaltas}
 `);
 
     }
+
 }
 
 alert(`Quantidade de alunos cadastrados: ${qtdAlunos}`);
